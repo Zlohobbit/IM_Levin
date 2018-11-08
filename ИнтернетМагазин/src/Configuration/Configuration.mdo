@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ca807d0-d195-4d5a-84e7-041f9b381a51">
+  <name>ИнтернетМагаззин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интернет магаззин</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="198c2c19-7b57-4d14-bdc6-fbc704ed1456"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5cf4fc14-2cd0-462e-a534-bb8f492198a6"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="ea8a119e-72fa-49f0-9e4b-e3ff9c0c0fff"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="1f4b8d68-048e-495f-a197-290ad2d4d383"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="bb54b9cd-fb19-4243-9c9b-8c66fac4b656"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1a55ee0c-59d4-48a2-a5cb-d39e97530931"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="de56fdbe-a081-4c06-ba34-6ddb69a85df7">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Основная</subsystems>
+  <exchangePlans>ExchangePlan.Мобильные</exchangePlans>
+  <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Цвета</catalogs>
+  <catalogs>Catalog.Размеры</catalogs>
+  <catalogs>Catalog.ПричиныОтказа</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.Заказ</documents>
+  <documents>Document.ОбслуживаниеЗаказов</documents>
+  <enums>Enum.СтатусыЗаказов</enums>
+  <dataProcessors>DataProcessor.ЗапасныйОбменДанными</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныТоваров</informationRegisters>
+</mdclass:Configuration>

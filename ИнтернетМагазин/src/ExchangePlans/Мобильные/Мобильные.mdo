@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd8bd9e6-d2f8-43d4-af9d-74443dde8d34" thisNode="51702b77-8508-4795-a6f5-36f18be96038">
+  <producedTypes>
+    <objectType typeId="58d29708-0294-4ba2-a8bf-71e93f06e3e5" valueTypeId="04df8efc-7ae3-4070-bc73-e7d6ea2d89dc"/>
+    <refType typeId="a619c6e3-2e4a-4cf6-b8c4-6c722a56fc06" valueTypeId="cd47c1d1-7cda-45ae-9eaf-8112eac45067"/>
+    <selectionType typeId="4007ea5c-ff28-48a5-8c76-37674076c2f5" valueTypeId="167dcb59-4069-4542-b72f-bb9fc6d1f8a3"/>
+    <listType typeId="259cd7ff-ea08-42c1-8790-0e5e68d6e9d4" valueTypeId="fc37c8c9-7c1f-425b-a268-95e279e96b15"/>
+    <managerType typeId="f12c8054-13bb-4d16-8a70-b4220bfa369f" valueTypeId="db4761d0-f97a-499d-aca7-b85a710e01c3"/>
+  </producedTypes>
+  <name>Мобильные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильные устройства</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.Мобильные.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.Мобильные.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>40</descriptionLength>
+  <content>
+    <mdObject>Document.ОбслуживаниеЗаказов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Цвета</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ПричиныОтказа</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЦеныТоваров</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Склады</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Клиенты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Размеры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Товары</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.Заказ</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="02f84499-a979-4aeb-ad66-ae2996546e56">
+    <name>Курьер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курьер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <commands uuid="ce8282d8-6c07-41ff-9395-b18e5ca29d4f">
+    <name>Команда1</name>
+    <comment></comment>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:ExchangePlan>

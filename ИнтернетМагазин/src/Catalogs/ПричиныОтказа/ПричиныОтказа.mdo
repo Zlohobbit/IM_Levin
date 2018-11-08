@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f1f1b3e-2e0a-4186-a25b-21182d459281">
+  <producedTypes>
+    <objectType typeId="878f62c7-b880-4d16-a582-8ff60d3bdd0d" valueTypeId="2c2de867-b8f7-4f40-acd0-09d7640710d2"/>
+    <refType typeId="cb984aa6-2e0d-4496-b6f9-d23378086071" valueTypeId="740f7fce-010d-4082-b68e-7fb42c5998ab"/>
+    <selectionType typeId="1e16d35f-5e4b-4dc9-9a95-525b901b8eb3" valueTypeId="8ac9110c-40c8-4741-a13b-059d805458df"/>
+    <listType typeId="2a9986c1-05b1-4f66-a6a6-11f4e48b4bcf" valueTypeId="b98ccca8-e3af-4bf5-bd5f-4c0b5a8ff03d"/>
+    <managerType typeId="6fb64a6e-08c0-4ec8-a92e-a000cd15c757" valueTypeId="755720b2-3707-42f2-aa22-2ae89c5492e5"/>
+  </producedTypes>
+  <name>ПричиныОтказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отказа</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПричиныОтказа.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПричиныОтказа.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Причина отказа от товара</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Причина отказа от товара</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

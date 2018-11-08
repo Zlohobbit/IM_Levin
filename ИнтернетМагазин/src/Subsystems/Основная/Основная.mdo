@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64dc315b-564a-40af-8469-af92ca93c3ef">
+  <name>Основная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная!</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Товары</content>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Цвета</content>
+  <content>Catalog.Размеры</content>
+  <content>Catalog.ПричиныОтказа</content>
+  <content>Catalog.Пользователи</content>
+  <content>Document.Заказ</content>
+  <content>Document.ОбслуживаниеЗаказов</content>
+  <content>Enum.СтатусыЗаказов</content>
+  <content>DataProcessor.ЗапасныйОбменДанными</content>
+  <content>InformationRegister.ЦеныТоваров</content>
+  <content>ExchangePlan.Мобильные</content>
+</mdclass:Subsystem>

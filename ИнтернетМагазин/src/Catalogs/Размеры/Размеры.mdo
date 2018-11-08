@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7ed92c1-4756-4e84-a5d0-cae7ccce76cb">
+  <producedTypes>
+    <objectType typeId="61e99961-b7bc-4573-a861-f4fab5d7cd89" valueTypeId="1e44f0ca-828a-40c1-a1b5-a254d5649e0c"/>
+    <refType typeId="44ee5c17-234e-473d-81e4-ede7737515b1" valueTypeId="ae6623f5-f39e-4f79-bf6d-27a6d5ebcfeb"/>
+    <selectionType typeId="246e6379-dac1-4b49-a65f-8f048d4d53e6" valueTypeId="fbb371f3-4263-41f2-8e78-7cf56bf080e6"/>
+    <listType typeId="431058fe-5e0e-4be6-a8b7-75af27c589bd" valueTypeId="959180e0-341b-40ad-b56d-ad9bfa410669"/>
+    <managerType typeId="7c0010e3-7279-4687-ab91-a5ca20e58ccb" valueTypeId="0a02a40b-8907-4142-834e-6858b838f61a"/>
+  </producedTypes>
+  <name>Размеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размеры</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Размеры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Размеры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Размер</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
